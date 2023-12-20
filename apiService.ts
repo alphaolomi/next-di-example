@@ -1,8 +1,7 @@
 // apiService.ts
 import 'reflect-metadata';
-import { injectable } from 'inversify';
 import axios from 'axios';
-import { TYPES } from './types';
+import { injectable } from 'inversify';
 import { ApiService } from './interfaces';
 
 
